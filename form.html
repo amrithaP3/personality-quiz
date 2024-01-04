@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amritha Pramod</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <meta charset="UTF-8">
+    <body>
+        <form action="results.html" method="get">
+            <h1 class="title">Answer 6 random questions and I'll guess what Zodiac Sign you are!</h1>
+            <p class="hook">Earth signs >>>> any other sign &#128064;</p>
+
+            <div>
+                <label for="first_name" id="name" >What is your name?           </label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            
+            <div>
+                <label for="friend" id="friend">Who are you in the social scene?</label>
+                <select name="friend" id="social" required>
+                    <option value="" selected disabled hidden>Be honest!</option>
+                    <option value="extra">The Resident Party Animal</option>
+                    <option value="ambi">The Social Introvert?</option>
+                    <option value="intro">The I-love-you-guys-but-I'm-staying-home</option>
+                </select>
+
+            <div>
+                <p class="words">What are two words that describe you best?</p>
+
+                <div class="describe">
+                    <input type="checkbox" id="funny" name="description" value="funny">
+                    <label for="funny">Funny</label>
+
+                    <input type="checkbox" id="confident" name="description" value="confident">
+                    <label for="confident">Confident</label>
+                    
+                    <input type="checkbox" id="caring" name="description" value="caring">
+                    <label for="caring">Caring</label>
+
+                    <input type="checkbox" id="intelligent" name="description" value="intelligent">
+                    <label for="intelligent">Intelligent</label>
+
+                    <input type="checkbox" id="practical" name="description" value="practical">
+                    <label for="practical">Practical</label>
+
+                    <input type="checkbox" id="adventurous" name="description" value="adventurous">
+                    <label for="adventurous">Adventurous</label>
+
+                    <input type="checkbox" id="selfless" name="description" value="selfless">
+                    <label for="selfless">Selfless</label>
+                </div>
+
+            </div>
+
+
+            <div class="roompics">
+                <p class="ROOM">Which room best fits your aesthetic?</p>
+                <table style="width:130%">
+                    <tr>
+                        <td>
+                            <label class="radio-inline">
+                                <input type="radio" id="earth" name="room" value="earth">
+                                    <div class="earthbtn">
+                                        <img src="images/earth.png" id="natural"/>
+                                        <p class="natural"> Sophisticated and Natural </p>
+                                    </div>
+                                </input>
+                            </label>
+                        </td>
+                        <td>
+                            <label class="radio-inline">       
+                                <input type="radio" id="fire" name="room" value="fire">
+                                    <div class="firebtn">
+                                        <img src="images/fire.png" id="luxury"/>
+                                        <p class="bold"> Bold and Luxurious </p>
+                                    </div>
+                                </input>
+                            </label>  
+                        </td>       
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label class="radio-inline">       
+                                <input type="radio" id="water" name="room" value="water">
+                                    <div class="waterbtn">
+                                        <img src="images/water.png" id="calm"/>
+                                        <p class="enthralling"> Calm and Enthralling </p>
+                                    </div>
+                                </input>
+                            </label>
+                        </td>
+
+                        <td>
+                            <label class="radio-inline">       
+                                <input type="radio" id="air" name="room" value="air">
+                                    <div class="airbtn">
+                                        <img src="images/air.png" id="minimalist"/>
+                                        <p class="balanced"> Minimalist and Balanced </p>
+                                    </div>
+                                </input>
+                            </label>
+                        </td>  
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <p class="red">What are your two biggest red flags?</p>
+
+                <div class="redflag">
+                    <input type="checkbox" id="emotion" name="flag" value="emotion">
+                    <label for="emotion">Overly emotional</label>
+
+                    <input type="checkbox" id="controlling" name="flag" value="controlling">
+                    <label for="controlling">Domineering</label>
+
+                    <input type="checkbox" id="stubborn" name="flag" value="stubborn">
+                    <label for="stubborn">Stubborn</label>
+
+                    <input type="checkbox" id="gossip" name="flag" value="gossip">
+                    <label for="gossip">Gossip Lover</label>
+
+                    <input type="checkbox" id="judgmental" name="flag" value="judgmental">
+                    <label for="judgmental">Judgmental</label>
+
+                    <input type="checkbox" id="detached" name="flag" value="detached">
+                    <label for="detached">Super detached</label>
+
+                    <div class="more">
+                        <input type="checkbox" id="wild" name="flag" value="wild">
+                        <label for="wild">Unpredictable</label>
+
+                        <input class="bad" type="checkbox" id="comm" name="flag" value="comm">
+                        <label for="comm">Bad communicator</label>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div>
+                <p class="fav">If you could only eat one thing for the rest of your life, what would it be?</p>
+                <div class="FOOD">
+                    <table>
+                        <tr>
+                            <td>
+                                <label class="radio-inline">
+                                    <input type="radio" id="roll" name="food" value="roll">
+                                        <div class="rollbtn">
+                                            <img src="images/roll.png" id="cinn"/>
+                                            <p class="cinnamon"> Cinnamonnonoon Rolls </p>
+                                        </div>
+                                    </input>
+                                </label>
+                            </td>
+                            <td>
+                                <label class="radio-inline">       
+                                    <input type="radio" id="noodles" name="food" value="noodles">
+                                        <div class="noobtn">
+                                            <img src="images/noodles.png" id="noo"/>
+                                            <p class="ramen"> Ramen *slurpp* </p>
+                                        </div>
+                                    </input>
+                                </label>  
+                            </td>     
+                            
+                            <td>
+                                <label class="radio-inline">       
+                                    <input type="radio" id="pizza" name="food" value="pizza">
+                                        <div class="pizzbtn">
+                                            <img src="images/pizza.png" id="pi"/>
+                                            <p class="PIZZA"> Pizzaaaaaaaaa </p>
+                                        </div>
+                                    </input>
+                                </label> 
+                            </td>
+                            
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <label class="radio-inline">       
+                                    <input type="radio" id="sushi" name="food" value="sushi">
+                                        <div class="sushibtn">
+                                            <img src="images/sushi.png" id="sushiroll"/>
+                                            <p class="SUSHI"> Sushi. </p>
+                                        </div>
+                                    </input>
+                                </label>
+                            </td>
+    
+                            <td>
+                                <label class="radio-inline">       
+                                    <input type="radio" id="sandwich" name="food" value="sandwich">
+                                        <div class="sandbtn">
+                                            <img src="images/sandwich.png" id="sand"/>
+                                            <p class="SANDWICH"> literally ANY sandwich </p>
+                                        </div>
+                                    </input>
+                                </label>
+                            </td>  
+    
+                            <td>
+                                <label class="radio-inline">       
+                                    <input type="radio" id="chick" name="food" value="chick">
+                                        <div class="chicken">
+                                            <img src="images/nug.png" id="nug"/>
+                                            <p class="nugget"> Chicken nuggss </p>
+                                        </div>
+                                    </input>
+                                </label>
+                            </td>
+    
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div>
+                <p class="star">What is your go to Starbuck's order?</p>
+
+                <table>
+                    <tr>
+                        <td>
+                            <label class="radio-inline">
+                                <input type="radio" id="pink" name="starbies" value="pink">
+                                    <div class="pinkbtn">
+                                        <img src="images/pink.png" id="pinkdrink"/>
+                                        <p class="PINK"> Pink Drink </p>
+                                    </div>
+                                </input>
+                            </label>
+                        </td>
+                        <td>
+                            <label class="radio-inline">       
+                                <input type="radio" id="mocha" name="starbies" value="mocha">
+                                    <div class="mochabtn">
+                                        <img src="images/mocha.png" id="choco"/>
+                                        <p class="white"> White Chocolate Mocha </p>
+                                    </div>
+                                </input>
+                            </label>  
+                        </td>     
+                        
+                        <td>
+                            <label class="radio-inline">       
+                                <input type="radio" id="pumpkin" name="starbies" value="pumpkin">
+                                    <div class="pumpbtn">
+                                        <img src="images/pumpkin.png" id="spice"/>
+                                        <p class="latte"> Pumpkin Spice Latte </p>
+                                    </div>
+                                </input>
+                            </label> 
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label class="radio-inline">       
+                                <input type="radio" id="tango" name="starbies" value="tango">
+                                    <div class="tangobtn">
+                                        <img src="images/tango.png" id="icedtango"/>
+                                        <p class="passion"> Iced Passion Tango Tea </p>
+                                    </div>
+                                </input>
+                            </label>
+                        </td>
+
+                        <td>
+                            <label class="radio-inline">       
+                                <input type="radio" id="capp" name="starbies" value="capp">
+                                    <div class="cappbtn">
+                                        <img src="images/cappuccino.png" id="cappuccino"/>
+                                        <p class="CAPP"> Cappuccino </p>
+                                    </div>
+                                </input>
+                            </label>
+                        </td>  
+
+                        <td>
+                            <label class="radio-inline">       
+                                <input type="radio" id="caramel" name="starbies" value="caramel">
+                                    <div class="frapp">
+                                        <img src="images/caramel.png" id="cfrapp"/>
+                                        <p class="frappuccino"> Caramel Frappuccino </p>
+                                    </div>
+                                </input>
+                            </label>
+                        </td>
+
+                    </tr>
+                </table>
+
+            </div>
+
+            <div>
+                <input id="submit-btn" type="submit" value="Submit">
+            </div>
+
+        </form>
+    </body>
+</html>
