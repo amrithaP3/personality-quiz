@@ -1,0 +1,1 @@
+This is a basic and fun personality/zodiac sign predicting quiz I created as part of an assignment in Georgia Tech's Intro to Computing course, CS 1301, during the Fall 2022 academic semester. I later became a teaching assistant for this course.
